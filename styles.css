@@ -1,7 +1,6 @@
 body {
   font-family: sans-serif;
   font-weight: 300;
-  background-color: grey;
   box-sizing: border-box;
 }
 
@@ -24,7 +23,7 @@ body {
   display: flex;
   justify-content: space-between;
   width: 100%;
-  padding: 50px;
+  padding: 4em 4em 0 4em;
 }
 
 .nav-links {
@@ -32,6 +31,7 @@ body {
   justify-content: space-between;
   align-items: center;
   font-size: 14px;
+  text-transform: uppercase;
 }
 
 .nav-link {
@@ -61,8 +61,8 @@ body {
   transition: all .2s ease-in-out;
 }
 
-.hero-contaier {
-  padding: 0 50px;
+.hero-container {
+  padding: 80px 0 110px;
   text-align: center;
 }
 
@@ -78,6 +78,7 @@ body {
   margin-top: 30px;
   color: white;
   font-size: 24px;
+  font-style: italic;
   text-align: center;
 }
 
@@ -103,4 +104,11 @@ body {
   background-color: #f36;
   border-radius: 100px;
   cursor: pointer;
+}
+
+.logo-section {
+  height: 80px; /* remove this when logos are added */
+  /* add this when logos are added */
+  /* padding: 30px 0; */
+  background-color: #F9F9FA;
 }
