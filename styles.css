@@ -1,0 +1,106 @@
+body {
+  font-family: sans-serif;
+  font-weight: 300;
+  background-color: grey;
+  box-sizing: border-box;
+}
+
+.head {
+  background: url(./img/header-background.png);
+  background-size: cover;
+  padding-bottom: 50px;
+}
+
+.logo {
+  width: 100px;
+  cursor: pointer;
+}
+
+.logo > img {
+  width: 100%;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 50px;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+}
+
+.nav-link {
+  color: white;
+  height: auto;
+  vertical-align: center;
+  cursor: pointer;
+}
+
+.nav-link:not(:last-child) {
+  margin-right: 35px;
+}
+
+.sign-up-link {
+  cursor: pointer;
+  color: #f36;
+  padding: 12px 30px;
+  border: 1px solid #f36;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all .2s ease-in-out;
+}
+
+.sign-up-link:hover {
+  background-color: #f36;
+  color: white;
+  transition: all .2s ease-in-out;
+}
+
+.hero-contaier {
+  padding: 0 50px;
+  text-align: center;
+}
+
+.hero-text-main {
+  color: white;
+  font-size: 46px;
+  text-align: center;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+
+.hero-text-sub {
+  margin-top: 30px;
+  color: white;
+  font-size: 24px;
+  text-align: center;
+}
+
+.play-button {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: white;
+  margin: auto;
+  margin-top: 40px;
+  cursor: pointer;
+}
+
+.cta-button-container {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 20px 50px;
+  color: white;
+  background-color: #f36;
+  border-radius: 100px;
+  cursor: pointer;
+}
